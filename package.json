@@ -1,0 +1,30 @@
+{
+  "name": "use-body",
+  "version": "1.0.0",
+  "description": "Extract the request body from JSON, text and urlencoded formats.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "body",
+    "parser",
+    "json",
+    "text",
+    "urlencoded",
+    "body parser",
+    "node"
+  ],
+  "author": "Otavio Rampinelli <otaviorampinellielias@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.12.11",
+    "eslint": "^9.2.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
